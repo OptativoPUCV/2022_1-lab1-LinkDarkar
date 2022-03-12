@@ -42,6 +42,11 @@ Utilice la función sumaN.
 void sumaNultimos(int a[], int n, int m, int * suma)
 {
    int *listaUltimos = (int*) calloc(m , sizeof(int));
+   if (listaUltimos == NULL)
+   {
+      exit(1);
+   }
+
    int casilla = n - 1;
 
    for (int cont = 0 ; cont < m ; cont++)
@@ -71,6 +76,11 @@ typedef struct
 Persona* crearPersona(char nombre[], char rut[], int edad)
 {
    Persona *datos = (Persona *) malloc(sizeof(Persona));
+   if (datos == NULL)
+   {
+      exit(1);
+   }
+
    strcpy(datos->nombre , nombre);
    strcpy(datos->rut , rut);
    datos->edad = edad;
@@ -94,8 +104,15 @@ typedef struct
 Vector * crearVector(int n)
 {
    Vector *lista = (Vector *) calloc(n , sizeof(Vector));
+   if (lista == NULL)
+   {
+      exit(1);
+   }
+
    return lista;
 }
+
+// ./test.sh
 
 /*
 Ejercicio 5a.
