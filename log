@@ -48,3 +48,9 @@ sá., 12 de mar. de 2022 16:13:47:
  tests:  3|4
 total_score: 30/70
 fac5675
+sá., 12 de mar. de 2022 16:17:11: 
+ exercises.c | 8 +++++---
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+ tests:  4|3
+total_score: 40/70
+0115581

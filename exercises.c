@@ -103,13 +103,15 @@ typedef struct
 
 Vector * crearVector(int n)
 {
-   Vector *lista = (Vector *) calloc(n , sizeof(Vector));
-   if (lista == NULL)
+   Vector *datosLista = (Vector *) malloc(sizeof(Vector));
+   if (datosLista == NULL)
    {
       exit(1);
    }
+   datosLista->datos = (int *) calloc(n , sizeof(int));
+   datosLista->capacidad = n;
 
-   return lista;
+   return datosLista;
 }
 
 // ./test.sh
