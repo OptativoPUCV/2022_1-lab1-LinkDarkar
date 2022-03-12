@@ -30,3 +30,9 @@ exercises.c:74:30: error: expected expression before ')' token
                               ^
 Compilation failed
 9bb1295
+sá., 12 de mar. de 2022 16:07:09: 
+ exercises.c | 1 -
+ 1 file changed, 1 deletion(-)
+ tests:  3|4
+total_score: 30/70
+6542fa0
