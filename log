@@ -20,3 +20,13 @@ sá., 12 de mar. de 2022 15:40:06:
  tests:  2|5
 total_score: 20/70
 9dd96d9
+sá., 12 de mar. de 2022 16:05:12: 
+ exercises.c | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+In file included from test.c:5:0:
+exercises.c: In function 'crearPersona':
+exercises.c:74:30: error: expected expression before ')' token
+    for (int cont = 0 ; cont <)
+                              ^
+Compilation failed
+9bb1295
