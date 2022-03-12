@@ -2,3 +2,9 @@ sá., 12 de mar. de 2022 15:05:21:
  tests:  0|7
 total_score: 0/70
 bf2a297
+sá., 12 de mar. de 2022 15:16:11: 
+ exercises.c | 38 +++++++++++++++++++++++++-------------
+ 1 file changed, 25 insertions(+), 13 deletions(-)
+ tests:  1|6
+total_score: 10/70
+58982e0
