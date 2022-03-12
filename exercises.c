@@ -38,10 +38,20 @@ Esta función debe sumar los últimos m números del
 arreglo a y almacena el resultado en *suma.
 Utilice la función sumaN.
 */
-
+//n = largo | m = ultimos a sumar | *suma = donde se almacena el resultado
 void sumaNultimos(int a[], int n, int m, int * suma)
 {
+   int *listaUltimos = (int*) calloc(m , sizeof(int));
+   int casilla = n - 1;
+   int cont;
 
+   for (cont = 0 ; cont < m ; cont++)
+   {
+      listaUltimos[cont] = a[casilla];
+      casilla -= 1;
+   }
+
+   *suma = sumaN(listaUltimos , m);
 }
 
 /*
