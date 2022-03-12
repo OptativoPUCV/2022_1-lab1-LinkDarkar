@@ -43,9 +43,8 @@ void sumaNultimos(int a[], int n, int m, int * suma)
 {
    int *listaUltimos = (int*) calloc(m , sizeof(int));
    int casilla = n - 1;
-   int cont;
 
-   for (cont = 0 ; cont < m ; cont++)
+   for (int cont = 0 ; cont < m ; cont++)
    {
       listaUltimos[cont] = a[casilla];
       casilla -= 1;
